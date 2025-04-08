@@ -19,7 +19,8 @@ public class IncidentRepositoryClass {
 			new Incident(2, "B2B", Priority.LOW, IncidentType.P2),
 			new Incident(3, "B2B", Priority.MEDIUM, IncidentType.P3),
 			new Incident(4, "B2B", Priority.HIGH, IncidentType.P1),
-			new Incident(5, "B2B", Priority.MEDIUM, IncidentType.P4));
+			new Incident(5, "B2B", Priority.MEDIUM, IncidentType.P4),
+			new Incident(6, "B2C", Priority.LOW, IncidentType.P4));
 
 	public List<Incident> fetchAllIncidents() {
 		// TODO Auto-generated method stub
